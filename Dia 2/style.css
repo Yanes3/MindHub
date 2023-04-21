@@ -1,0 +1,27 @@
+body {
+    background-image: url(./Imagenes/Fondo.jpg);
+    width: 100vh;
+    height: 100vh;
+}
+
+* {
+    color: #ffff00;
+    font-style: italic;
+}
+
+.fondoDeLetras {
+    background-color: darkgreen;
+}
+
+section img{
+    width: 100%;
+    height: auto;
+}
+
+#soloUnFondo{
+    background-color: chocolate;
+}
+
+main header div{
+    margin: 1000px;
+}

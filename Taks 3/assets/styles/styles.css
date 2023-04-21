@@ -1,0 +1,131 @@
+/* Todas las paginas*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+/*Todo el header de las paginas*/
+header {
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60%;
+    border-bottom: 1px solid white;
+}
+
+header div img {
+    height: 10vh;
+
+}
+
+/*Todo el Main de las paginas*/
+.sectionSuperior {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*Main home*/
+main {
+    min-height: 70vh;
+}
+
+.sectionSuperior div {
+    padding: 0.5%;
+}
+
+.sectionMedio {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.sectionMedio div img {
+    height: 75rem;
+}
+
+.sectionInferior {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    padding: 5rem;
+}
+
+.sectionInferior div img {
+    height: 35rem;
+}
+
+/*Main About Us*/
+
+.sectionMedioA {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    padding: 5rem;
+}
+
+.sectionMedioA img {
+    height: 35rem;
+}
+
+/*Main Contact*/
+
+.sectionMedioC {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+    padding: 5rem;
+}
+
+.sectionMedioC img {
+    height: 55rem;
+}
+
+/*Main More Information*/
+
+main table {
+    border-collapse: collapse;
+    width: 50%;
+    border: 1px solid white;
+    margin: 15vh auto;
+
+}
+
+th,
+td {
+    text-align: center;
+    padding: 8vh;
+    border: 1px solid white;
+}
+
+/*Main Benefits and Tips*/
+
+.sectionMedioB {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    padding: 5rem;
+}
+
+.sectionMedioB img {
+    height: 35rem;
+}
+
+
+
+/*Todo el footer de las paginas*/
+footer {
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid white;
+}

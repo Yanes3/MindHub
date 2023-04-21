@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./images/fondo-tabla.jpg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 50vw;
+    top: 15%; 
+    left: 15%;
+}
+
+.pizza1 {
+    height: 20rem;
+    width: 20rem;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    transform: rotate(60deg);
+}
+.pizza2 {
+    height: 20rem;
+    width: 20rem;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: rotate(-60deg);
+}
+
+.pizza3 {
+    height: 20rem;
+    width: 20rem;
+    display: inline-block;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    
+}
+
+.pizza4 {
+    height: 20rem;
+    width: 20rem;
+    display: inline-block;
+    position: absolute;
+    top: 70%;
+    left: 35%;
+    transform: rotate(60deg);
+}
+
+
+.pizza5 {
+    height: 20rem;
+    width: 20rem;
+    display: inline-block;
+    position: absolute;
+    top: 70%;
+    left: 65%;
+    transform: rotate(-60deg);
+}
+
+.pizza6 {
+    height: 20rem;
+    width: 20rem;
+    display: inline-block;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+}

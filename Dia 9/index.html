@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <div>
+            <h1>Registro de OSDeDA (Obra Social de desarrolladores)</h1>
+            <h2>tel:9703726385</h2>
+            <h2>Email: contacto@osdada.com</h2>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3324.3717074147107!2d-70.62996!3d-33.569697!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662db619d6921df%3A0x50832569fc28aec9!2sRehue%2C%20Wooden%20Totem!5e0!3m2!1ses!2sco!4v1682080516126!5m2!1ses!2sco"
+                width="600" height="450" style="border:0;" allowfullscreen=""
+                loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <form action="show_data.html" method="get">
+            <label for="fName">First Name:</label>
+            <input type="text" id="fName" name="fName" placeholder="Your
+                name..">
+            <label for="lName">Last Name:</label>
+            <input type="text" id="lName" name="lName" placeholder="Your last
+                name..">
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email"
+                placeholder="meloacabedeinventar@dominio.algo">
+            <label for="coffee">What color would you like the coffee pot:</label>
+            <select name="coffee-Selection" id="coffee">
+                <option>Select</option>
+                <option>Instant Coffee</option>
+                <option>Latte</option>
+                <option>Cappuccino</option>
+                <option>Americano</option>
+                <option>Espresso</option>
+                <option>Mocha</option>
+            </select>
+            <h3>Payment Options:</h3>
+            <label for="cash">Cash
+                <input type="radio" id="cash" name="payment" value="cash">
+            </label>
+            <label for="credit">Credit Cards
+                <input type="radio" id="credit" name="payment" value="credit">
+            </label>
+            <label for="debit">Debit Cards
+                <input type="radio" id="debit" name="payment" value="debit">
+            </label>
+            <label for="accept"> I accept terms and conditions...
+                <input type="checkbox" name="yes" id="accept">
+            </label>
+            <h3>Service:</h3>
+            <label for="textComent">
+                <textarea name="text" id="textComent" cols="30" rows="10"></textarea>
+            </label>
+            <input type="submit" value="Send">
+        </form>
+    </body>
+</html>

@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    
+}
+
+body div{
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+body div iframe{
+    width: 60%;
+    height: 40%;
+}
+
+form{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: aqua;
+}

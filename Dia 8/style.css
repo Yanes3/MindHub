@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    
+}
+
+body div{
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+body div iframe{
+    width: 60%;
+    height: 40%;
+}
+
+form{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: aqua;
+}
+
+@media only screen and (min-width:320px) and (max-width:425px){
+    body{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    body form{
+        background-color: brown;
+    }
+}
+
+
+@media only screen and (min-width:425px) and (max-width:768px){
+    body{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    body form{
+        background-color: wheat;
+    }
+
+}

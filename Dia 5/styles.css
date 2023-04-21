@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./images/fondo-flex.jpg);
+    background-size: cover;
+    height: 100%;
+}
+
+header{
+    height: 50vh;
+    margin-top: 70px;
+    margin-left: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+
+}
+
+main{
+    height: 35vh;
+    display: flex;
+    justify-content: space-between
+}
+footer{
+    height: 15vh;
+    display: flex;
+    justify-content: center; 
+}
+
+img{
+    height: 13rem;
+    
+}
+
